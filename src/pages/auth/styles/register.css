@@ -1,0 +1,48 @@
+#overlay{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(0,0,0,0.2);
+    height: fit-content;
+}
+#registerForm input {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#login-input input:focus {
+    outline: none;
+}
+#login_btn_wrapper input {
+    padding: 10px 35px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: unset;
+    cursor: pointer;
+}
+#login_btn_wrapper input:active {
+    transform: scale(80%);
+    opacity: 80%;
+}
+#login_create_wrapper a  {
+    padding: 10px 35px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    border: unset
+}
+#login_create_wrapper a:active {
+    transform: scale(80%);
+    opacity: 80%;
+}

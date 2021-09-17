@@ -1,0 +1,28 @@
+.add_to_cart_btn {
+    margin-top: 50px;
+}
+.add_to_cart_btn a {
+    padding: 10px 15px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#product_page_wrapper {
+    width: 80%;
+    margin: 100px auto
+}
+#product_page_media {
+    height: 70vh;
+    background-size: contain
+}
+.product_page_rating {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+.product_page_detail {
+    padding: 3vw
+}

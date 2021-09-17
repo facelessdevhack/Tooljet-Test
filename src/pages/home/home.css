@@ -1,0 +1,10 @@
+#productWrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+#loader {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
